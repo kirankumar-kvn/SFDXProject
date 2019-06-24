@@ -1,5 +1,5 @@
 public with sharing class AccountController {
-    /* 24 June */
+    
     /*change in Acc2 */
     @AuraEnabled(cacheable=true)
     public static List<Account> findAccounts(String searchKey) {
